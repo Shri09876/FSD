@@ -1,0 +1,26 @@
+#fname{
+    background-color:pink
+}
+
+#lname{
+    background-color:red
+}
+
+#phno{
+    background-color:grey
+}
+
+#email{
+    background-color:green
+}
+
+#address{
+    background-color:black
+}
+
+.ClassForm{
+font-family: 'Times New Roman', Times, serif;
+font-style: italic;
+background-color: purple;
+}
+
