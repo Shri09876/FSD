@@ -1,36 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <h1>Online Form</h1>
-<link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  
-  <label for="fname">First name:</label>
-  <input type="text" id="fname" placeholder="first name" class="ClassForm"><br><br>
-  <label for="lname">Last name:</label>
-  <input type="text" id="lname" placeholder="last name" class="ClassForm"><br><br>
-  <label for="phno">phno:</label>
-  <input type="text" id="phno" placeholder="phno" class="ClassForm"><br><br>
-  <label for="email">email:</label>
-    <input type="text" id="email" placeholder="email" class="ClassForm"><br><br>
-    <label for="address">address:</label>
-   <input type="text" id="address" placeholder="address" class="ClassForm"><br><br> 
-   <label for="password">password</label>
-   <input type="password" id="password" placeholder="password" class="ClassForm"><br><br>
-   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam omnis itaque impedit, ipsum, 
-    nisi nostrum sint alias aliquid magni consectetur, sequi vel. Saepe possimus obcaecati ad numquam 
-    facere reiciendis, fugiat amet atque suscipit unde incidunt a error, eos, repudiandae neque officia 
-    laudantium aliquid quae quod voluptatum. Dolores, tempore cumque reprehenderit rem ipsam dolore hic
-     <span>nemo alias natus quia illo odio illum a architecto, quam neque, vel sequi incidunt quod unde? Ipsa,</span>
-     aspernatur? Maiores, ipsam, eligendi soluta pariatur error ducimus quo dicta hic aliquam culpa, illo
-      tenetur rem. Eveniet a aspernatur illo dolores nobis ullam delectus aliquid, atque, suscipit 
-    nostrum blanditiis.
-   </p>
+    <div class="calculator">
+    </div>
+    <input type="text" id="display" readonly>
+    <div class="button">       
+    </div><br>
+   <button onClick="appendtoDisplay('7')">7</button>
+    <button onClick="appendtoDisplay('8')">8</button>
+    <button onClick="appendtoDisplay('9')">9</button>
+    <button onClick="appendtoDisplay('/')">/</button><br>
+
+    <button onClick="appendtoDisplay('4')">4</button>
+    <button onClick="appendtoDisplay('5')">5</button>
+    <button onClick="appendtoDisplay('6')">6</button>
+    <button onClick="appendtoDisplay('*')">*</button><br>
+
+    <button onClick="appendtoDisplay('3')">3</button>
+    <button onClick="appendtoDisplay('2')">2</button>
+    <button onClick="appendtoDisplay('1')">1</button>
+    <button onClick="appendtoDisplay('-')">-</button><br>
+
+    <button onClick="appendtoDisplay('0')">0</button>
+    <button onClick="appendtoDisplay('.')">.</button>
+    <button onClick="appendtoDisplay('c')">c</button>
+    <button onClick="appendtoDisplay('+')">+</button><br>
+
+    <button class="equal" onClick="calculate()">=</button>
 
 
-  <button onclick="submit()">Submit</button><br><br>
-  <img src ="images 1.jpg">
-  <script src="script.js"></script>
 </body>
 </html>

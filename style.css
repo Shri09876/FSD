@@ -1,33 +1,24 @@
-#fname{
-    background-color:pink
+body{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+    background:#EEF;
+    font-family: 'Times New Roman', Times, serif;
 }
 
-#lname{
-    background-color:red
+.Calculator {
+    border:1px solid#ccc;
+    padding:20px;
+    background:#FFF;
+    border-radius:12px;
+    box-shadow:0 0 10px#ccc;
 }
 
-#phno{
-    background-color:grey
-}
-
-#email{
-    background-color:green
-}
-
-#address{
-    background-color:black
-}
-
-.ClassForm{
-font-family: 'Times New Roman', Times, serif;
-font-style: italic;
-background-color: purple;
-}
-
-span{
-    color:red;
-}
-
-p{
-    visibility:hidden
+.button{
+    font-size:20px;
+    padding:15px;
+    border:none;
+    border-radius:8px;
+    background:#eee;
 }
